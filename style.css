@@ -1,0 +1,86 @@
+/*
+Theme Name (*): Netsdemy
+Theme URI: The URL of a public web page where users can find more information about the theme.
+Author (*): NETSDEMY TEAM
+Author URI: The URL of the authoring individual or organization.
+Description (*): Netsdemy is a platform for 7 to 12 and mid career professionals. It will help you get 
+organized learning and ...
+Version (*): 1.1
+Requires at least (*): 5.0
+Tested up to (*): 5.6
+Requires PHP (*): 7.1.1
+License (*): GNU GPL
+License URI (*): www.netsdemy.com
+Text Domain (*): netsdemy
+Tags: Online courses, Test sessions, Study material, Online classes, Offline class, Student Suport, Schools partners
+Domain Path: Used so that WordPress knows where to find the translation when the theme is disabled. Defaults to /languages.
+
+*/
+/*****************
+1. Header
+*****************/
+.site-header{
+  width: 100%;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  border-style: dashed;
+  border-color: blue;
+}
+
+/*****************
+1. Main Manu
+*****************/
+.site-navigation{
+  width: 100%;
+  display: block;
+  clear: both;
+  height: 40px;
+  border-style: dashed;
+  border-color: rgb(243, 8, 98);
+}
+
+/*****************
+1. Home Content
+*****************/
+.home-main{
+  /* margin-top: 50px; */
+  width: 100%;
+  border-color: blue;
+  border-style: dotted;
+
+}
+.home-posts{
+  background: rgb(255, 255, 255);
+  padding: 30px 30px !important;
+  margin: auto;
+  width: 100%;
+  border: 3px solid #5a71f0;
+  padding: 10px;
+}
+
+/****************************
+1. Hom e Sidebar and Widgets
+******************************/
+
+/****************************
+1. center-message
+******************************/
+.update-message{
+  background:rgb(55,168,163);
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  text-decoration-color: rgb(248, 246, 246);
+  color: beige;
+}
+ 
+/****************************
+1. center-message
+******************************/
+.Menu-Bar{
+  border-style: dashed;
+  border-color: rgb(68, 202, 63);
+  width: 100px;
+}
